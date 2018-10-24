@@ -1,9 +1,10 @@
 def calc (a, b, function):
-    if function == 'mul':
+    function = str(function)
+    if function == "mul":
         return a*b
-    elif function == 'div':
+    elif function == "div":
         return a/b
-    elif function == 'sub':
+    elif function == "sub":
         return a-b
     else:
         return a+b
